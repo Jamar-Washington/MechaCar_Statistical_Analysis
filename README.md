@@ -37,3 +37,19 @@ In the image showing the results of the T-test for the suspension coils of lot 2
 ![R_D3_P4](https://user-images.githubusercontent.com/109183214/203221552-28fce221-977e-445c-bc23-88fafa43226c.png)  
 A look at the results of the T-test for the suspension coils of lot 3 shows some interest as they are slightly statistically different from the population mean. 
 This lot may have to be evaluted more as the p-value is 0.0417, which is low enough for us to reject the null hypothesis.
+
+## Study Design: MechaCar vs Competition
+When a consumer is looking for a new car to purchase, they are looking one or multiple reasons to purchase the vehicle. Some of those reasons could be cost, fuel efficiency, maintenance, and/or safety rating. Many consumers in today's age are looking for a vehicle that has a range of about 400 miles on a full tank/charge. This could be due to road trips in areas with longer distances from gas/charging stations or not wanting to frequently fill/charge the tank.  
+
+Metric to test
+Whatever the reason, we should evaluate MechaCar's fuel economy, in miles per gallon, in comparison to various vehicles of MechaCar's competitors.
+
+Null and Alternate Hypothesis
+**H0:** MechaCar's prototypes has an average fuel economy similar to competitor's vehicles in the same vehicle class   
+**Ha:** MechaCar's prototypes has an average fuel economy that is statistically different then that of competitor vehicles
+
+Statistical Test Used
+The best statistical test for this would be two-sample t-tests
+
+What data is needed
+Fuel economy data of MechaCar prototypes, as well as from all major competitor vehicles
