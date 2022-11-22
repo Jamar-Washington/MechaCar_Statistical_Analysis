@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ### Tools used in project
-R
+**R**
 
 ## Summary
 ## Linear Regression to Predict MPG
@@ -19,3 +19,21 @@ R
 ![R_D2_P2](https://user-images.githubusercontent.com/109183214/203183464-85d7c830-e538-4f9d-9493-51d8cf3366b4.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The overall variance, as shown in the smaller data frame, is under 100 pounds per square inch. However, the variance for Lot 3 is well over the acceptable threshold, at 170.28 pounds per square inch.
+
+## T-Tests on Suspension Coils
+**Cumulative T-test** 
+![R_D3_P1](https://user-images.githubusercontent.com/109183214/203221555-917903bc-92c3-45fb-b2cb-420af5c7f4a0.png)  
+The image above is the results of the T-test for the suspension coils of all the manufacturing lots. The reults shows that there are no statistically differences from the population mean. With the p-value being 0.0603, we cannot reject the null hypothesis.
+
+**Lot 1 T-test** 
+![R_D3_P2](https://user-images.githubusercontent.com/109183214/203221556-150ea648-84f5-4a3a-bb54-4f99f57e2a0d.png)  
+This image is the results of the T-test for the suspension coils of lot 1. Again, the reults shows that there are no statistically differences from the population mean. With the p-value being 1, we cannot reject the null hypothesis.
+
+**Lot 2 T-test** 
+![R_D3_P3](https://user-images.githubusercontent.com/109183214/203221557-5883a4f9-82a1-4bdc-92f5-6bc8167670b5.png)  
+In the image showing the results of the T-test for the suspension coils of lot 2, the reults shows that there are no statistically differences from the population mean. With the p-value being 0.6072, we cannot reject the null hypothesis.
+
+**Lot 3 T-test**
+![R_D3_P4](https://user-images.githubusercontent.com/109183214/203221552-28fce221-977e-445c-bc23-88fafa43226c.png)  
+A look at the results of the T-test for the suspension coils of lot 3 shows some interest as they are slightly statistically different from the population mean. 
+This lot may have to be evaluted more as the p-value is 0.0417, which is low enough for us to reject the null hypothesis.
