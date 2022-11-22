@@ -1,5 +1,14 @@
 # MechaCar_Statistical_Analysis
 
+## Overview
+AutosRUs' new MechaCar is having "production troubles" and is turning that analytical reviews to help provide some insight to the problem.  
+The goals of this project is to:
+
+* discover which variables predict the MPG for vehicle prototypes  
+* collect summary stats on the PSI of suspension coils  
+* determine if manufacturing lots are statistically different from the mean population  
+* design a study to compare the MechaCar performance against vehicles from other manufacturers
+
 ### Tools used in project
 **R**
 
